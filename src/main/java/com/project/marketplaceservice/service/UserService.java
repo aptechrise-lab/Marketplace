@@ -28,6 +28,9 @@ public class UserService {
     public UserResponseDTO getUserByEmail(Long id) {
         User user = userRepository.findById(id).orElse(null);
 
+        if(user == null){
+            return null;
+        }
         UserResponseDTO response = new UserResponseDTO();
         response.setId(user.getId());
         response.setName(user.getName());
