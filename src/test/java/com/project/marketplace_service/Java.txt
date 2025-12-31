@@ -14,7 +14,9 @@ line 7 from git
 line 8 from git
 line 9 from git
 
-line 10 from git
+github line for rebase from git
 
 line this from github
 line this from github
+
+Rebase new line
